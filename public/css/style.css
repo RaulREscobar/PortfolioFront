@@ -20,12 +20,10 @@ video {
     left: 75px;
     top: 125px;
     object-fit: fill;
-    border: solid 10px white;
+    border: solid 10px aliceblue;
     border-radius: 50%;
     width: 150px;
     height: 150px;
 }
-
-
 
 
