@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    width: 100vw;
+    position: absolute;
+}
+#hellowWorld {
+    color: #0f0;
+    margin: 50px auto;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 12ch;
+    background-color: black;
+    animation: typing 2s steps(12), blink .5s infinite step-end;
+    overflow: hidden;
+}
+
+#canv {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+@keyframes typing {
+    from { width: 0 ;}
+}
+
+@keyframes blink {
+    50% {border-color: transparent;}
+}
