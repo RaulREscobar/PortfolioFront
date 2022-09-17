@@ -1,8 +1,8 @@
 .container {
-    display: flex;
     width: 100vw;
-    position: absolute;
+    /* position: absolute; */
 }
+
 #hellowWorld {
     color: #0f0;
     margin: 50px auto;
@@ -21,6 +21,7 @@
     position: absolute;
     top: 0;
     right: 0;
+    z-index: -1;
 }
 
 @keyframes typing {

@@ -15,15 +15,5 @@ video {
     height: 200px;
 }
 
-.avatar {
-    position: absolute;
-    left: 75px;
-    top: 125px;
-    object-fit: fill;
-    border: solid 10px aliceblue;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-}
 
 

@@ -1,0 +1,11 @@
+.container-avatar {
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 50vw;
+    max-width: 300px;
+    border-radius: 20px;
+}

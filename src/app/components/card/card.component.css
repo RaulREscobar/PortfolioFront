@@ -1,0 +1,13 @@
+.container-card {
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.img-card {
+    width: 50vw;
+    max-width: 300px;
+    border-radius: 40%;
+}
