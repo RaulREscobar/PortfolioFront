@@ -1,9 +1,11 @@
-.container {
+.container-header {
     width: 100vw;
-    /* position: absolute; */
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
-#hellowWorld {
+.hellowWorld {
     color: #0f0;
     margin: 50px auto;
     font-size: 50px;
@@ -15,13 +17,6 @@
     background-color: black;
     animation: typing 2s steps(12), blink .5s infinite step-end;
     overflow: hidden;
-}
-
-#canv {
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: -1;
 }
 
 @keyframes typing {

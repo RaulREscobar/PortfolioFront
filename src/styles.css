@@ -1,8 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bulma/css/bulma.min.css";
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: #000;
     color: #0f0;
+}
+
+.background-transparent {
+    background-color: transparent;
+   
 }
